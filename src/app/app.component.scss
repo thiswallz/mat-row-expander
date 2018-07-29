@@ -1,0 +1,40 @@
+table {
+  width: 100%;
+}
+
+td.mat-cell {
+  padding-top: 20px;
+  vertical-align: text-top;
+}
+
+td.mat-cell:first-child {
+  padding-left: 35px;
+}
+
+td {
+  position: relative;
+}
+
+.viewer {
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  width: 100%;
+}
+
+.expander {
+  color: #a5a5a5;
+  cursor: pointer;
+}
+
+.expanded {
+  & .expander {
+    color: #a5a5a5;
+  }
+}
+
+.subcontent {
+  width: 500px;
+  top: 25px;
+  left: 25px;
+}
